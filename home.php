@@ -23,7 +23,7 @@
                 </div>
                 <div class="panel-footer">
                 <span>Price: <?php echo $row['proprice']; ?></span>
-                <a class="btn btn-primary" href="?page=detail.php&id=<?php echo $row['proid']; ?>">Detail</a>
+                <a class="btn btn-primary" href="?page=detail.php&id=<?php echo $row['proid']; ?>">Details</a>
                 </div>
             </div>
         </div>

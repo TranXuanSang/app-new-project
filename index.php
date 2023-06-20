@@ -2,6 +2,7 @@
 session_start();
 //$urladmin ="http://localhost:8080/admin/";
 //$urluser ="http://localhost:8080/";
+
 $home = "frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/home.php";
 $register = "frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/register.php";
 $shoppingcart = "frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/shoppingcart.php";
