@@ -1,0 +1,153 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+  margin-bottom: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #000;
+  background-image: url();
+  background-size: 1381px;
+}
+
+.jumbotron {
+  background-image: url(../images/01.jpg); 
+}
+
+.img-product{
+  height:200px; 
+  width:358px;
+}
+
+div>h1.brand-heading{
+  font-size: 63px;
+  color: #05dabc;
+}
+
+div>p.brand-text{
+  color: #f1f1f1;
+}
+
+div>span.text{
+  color: #ea7250;
+}
+
+.nav-link{
+  background-color: rgb(0, 0, 0);
+    color:#337ab7;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+}
+.nav-link:hover{
+  background-color: red;
+}
+.dropdown-menu{
+  display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+.dropdown-menu a{
+  color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-item:hover .dropdown-menu{
+  display: block;
+}
+
+.nav-item{
+  position: relative;
+    display: inline-block;
+}
+
+.wrapper {
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-color: azure;
+  
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background:rgba(0, 0, 0, 0.501);
+}
+
+.contact-us {
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+.contact-us h3,
+p {
+  color: rgb(247, 237, 237)
+}
+
+.address {
+  margin-top: 14px !important;
+  margin-left: 10px
+}
+
+.address span {
+  color: #000000
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(87, 53, 53);
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.icons i {
+  font-size: 20px
+}
+
+.forms {
+  padding: 20px
+}
+
+.form-control {
+  padding: .375rem .25rem
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #03939b;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.panel-heading {
+  color: #fff;
+  background-color: #03939b;
+  border-color: #337ab7;
+}
+
+.btn-panel-footer{
+  border-color: #337ab7;
+}
