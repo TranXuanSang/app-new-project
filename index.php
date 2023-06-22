@@ -11,7 +11,7 @@ $logout = "eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/logout.php"
 
 //Connection
 
-$conn = mysqli_connect("eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "kxvhmvwfindqbr6j", "kxvhmvwfindqbr6j", "dyzpdzy7izih7ans")
+$conn = mysqli_connect("eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "kxvhmvwfindqbr6j", "qkgcf02pmxg73ohk", "dyzpdzy7izih7ans")
       or die("Can not connect database".mysqli_connect_error());
 
 include('theme.php');
